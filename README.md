@@ -29,7 +29,7 @@ O código implementa uma interface de visualização de dados em um aplicativo. 
  Toda a lógica para o cálculo de médias, contagem de dados enviados, etc., está no código que é inserido no ESP32 por meio do Arduino IDE. O código também permite a fácil visualização dos dados em aplicativos de dashboard para desktop, como o Node-RED.
 
 ### Vídeo do código em execução
-[Assista ao vídeo]([https://www.youtube.com/watch?v=iiaZknPVKpI](https://youtube.com/shorts/TiHe-JN9a4s?feature=share))
+[Assista ao vídeo](https://www.youtube.com/shorts/TiHe-JN9a4s)
 
 Abaixo, uma foto do aplicativo funcionando recebendo os dados do Broker e imprimindo na tela:
 <img src="apkDadosKodular.png"/>
