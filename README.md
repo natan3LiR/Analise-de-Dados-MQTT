@@ -3,12 +3,12 @@
 </h1>
 
 ## 📚Sobre
-Este repositório é o resultado de um trabalho em dupla realizado durante nosso curso no Senai, comigo fazendo a parte dos cálculos no código e organizando tudo no Broker MQTT que foi o Shiftr, já meu amigo ficou com a parte de montar os circuitos físicos do projeto, fez a lógica dos led´s e desenvolveu e personalizou o aplicativo. Ele demonstra nossa habilidade em desenvolver aplicações IoT úteis e interessantes para diversos contextos.
+Este repositório é o resultado de um trabalho em dupla realizado durante nosso curso no Senai. Eu fui responsável pelos cálculos no código e pela organização dos dados no Broker MQTT (Shiftr), enquanto meu colega ficou encarregado da montagem dos circuitos físicos, da lógica dos LEDs e do desenvolvimento e personalização do aplicativo. O projeto demonstra nossa habilidade em desenvolver aplicações IoT úteis e interessantes para diversos contextos.
 
 Fique à vontade para explorar o código-fonte e contribuir com melhorias. Estamos abertos a sugestões e colaborações que possam aprimorar ainda mais este projeto.
 
 ## 💻Funcionalidades
-O código contém uma interface de visualização de dados em um aplicativo. Ele faz as leituras de temperatura e umidade utilizando um sensor DHT11. Esses dados de temperatura e umidade são enviados para um broker MQTT e podem ser resgatados por algum inscrito no tópico, a ideia é de uma empresa ou instituição utilizar a aplicação para ter controle da temperatura e umidade de uma sala, mas não se prende a isso, podendo facilmente ser alterado para utiliza-lo em outros contextos. Suas funcionalidades principais são: 
+O código implementa uma interface de visualização de dados em um aplicativo. Ele realiza leituras de temperatura e umidade usando um sensor DHT11, enviando esses dados para um broker MQTT, de onde podem ser acessados por inscritos no tópico. A ideia inicial é que empresas ou instituições utilizem a aplicação para monitorar a temperatura e umidade de uma sala, mas o projeto pode ser facilmente adaptado para outros contextos. As funcionalidades principais incluem:
 - Processamento de Dados
     - Temperatura atual
     - Umidade atual
@@ -26,7 +26,7 @@ O código contém uma interface de visualização de dados em um aplicativo. Ele
     - Um LED sinalize sempre que uma publicação for feita (LED pisca quando for feita uma publicação).
     - Um LED sinalize sempre que uma mensagem de um tópico assinado chegar. 
 
- Toda a lógica de média, número de dados enviados e etc, está no próprio código que é inserido no ESP32 por meio do arduino IDE, o código também possibilita facilmente a visualização dos dados em um aplicativo de dashboard desktop como Node-RED.
+ Toda a lógica para o cálculo de médias, contagem de dados enviados, etc., está no código que é inserido no ESP32 por meio do Arduino IDE. O código também permite a fácil visualização dos dados em aplicativos de dashboard para desktop, como o Node-RED.
 
 ### Vídeo do código em execução
 [Assista ao vídeo](https://www.youtube.com/watch?v=iiaZknPVKpI)
