@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+//Pra conseguir usar os componentes do esp32 no arduino IDE, deve-se entrar em "file" depois clicar em "preferences" e depois colar o link lá.

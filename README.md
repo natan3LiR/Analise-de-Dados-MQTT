@@ -3,7 +3,7 @@
 </h1>
 
 ## 📚Sobre
-Este repositório é o resultado de um trabalho em dupla realizado durante nosso curso no Senai, comigo fazendo a parte dos cálculos no código e organizando tudo no Broker MQTT que foi o Shiftr, já meu amigo ficou com a parte de montar os circuitos físicos do projeto, fez a lógica dos led´s e desenvolveu e personalizou o aplicativo. Ele demonstra nossa habilidade em desenvolver aplicações IoT úteis e interessantes para diversos contextos .
+Este repositório é o resultado de um trabalho em dupla realizado durante nosso curso no Senai, comigo fazendo a parte dos cálculos no código e organizando tudo no Broker MQTT que foi o Shiftr, já meu amigo ficou com a parte de montar os circuitos físicos do projeto, fez a lógica dos led´s e desenvolveu e personalizou o aplicativo. Ele demonstra nossa habilidade em desenvolver aplicações IoT úteis e interessantes para diversos contextos.
 
 Fique à vontade para explorar o código-fonte e contribuir com melhorias. Estamos abertos a sugestões e colaborações que possam aprimorar ainda mais este projeto.
 
@@ -25,12 +25,14 @@ O código contém uma interface de visualização de dados em um aplicativo. Ele
     - Um LED sinaliza a conexão do ESP32 com a rede Wi-Fi (O LED permanece ligado enquanto estiver conectado). 
     - Um LED sinalize sempre que uma publicação for feita (LED pisca quando for feita uma publicação).
     - Um LED sinalize sempre que uma mensagem de um tópico assinado chegar. 
-    
+
  Toda a lógica de média, número de dados enviados e etc, está no próprio código que é inserido no ESP32 por meio do arduino IDE, o código também possibilita facilmente a visualização dos dados em um aplicativo de dashboard desktop como Node-RED.
 
 ### Vídeo do código em execução
 [Assista ao vídeo](https://www.youtube.com/watch?v=iiaZknPVKpI)
 
+Abaixo, uma foto do aplicativo funcionando recebendo os dados do Broker e imprimindo na tela:
+<img src="apkDadosKodular.png"/>
 
 ## 🔨Ferramentas
 
@@ -43,6 +45,7 @@ O código contém uma interface de visualização de dados em um aplicativo. Ele
 - Circuito com ESP32
 - Shiftr (ou outro broker compatível)
 - Arduino IDE (ou outra IDE compatível)
+- Placa ESP32 DEVKIT V1
 
 ## 🏹Instalação
 
